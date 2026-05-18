@@ -1,0 +1,8 @@
+app:
+  port: 8080
+  ui_password: "changeme"
+  jwt_secret: "change-me-in-production"
+
+libraries:
+  - friendly_name: "Manga"
+    path: "./manga"
